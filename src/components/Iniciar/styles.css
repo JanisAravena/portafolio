@@ -60,7 +60,7 @@ body {
         }
   .nav-link, p {
     color: #e1dee3;
-    font: bold 90% monospace;
+    /* font: bold 90% monospace; */
   }
   
   h1{
