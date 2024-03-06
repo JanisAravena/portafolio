@@ -1,11 +1,9 @@
-/* Inicio.css */
-
 .inicio-container {
-    background-image: url('/ruta/a/la/imagen/de/fondo.jpg'); /* Cambia esto por la ruta correcta de tu imagen */
+    background-image: url('/ruta/a/la/imagen/de/fondo.jpg'); 
     background-size: cover;
     background-position: center;
-    color: white; /* Cambia los colores como necesites */
-    height: 100vh; /* Asegúrate de que el contenedor ocupe toda la altura de la vista */
+    color: white; 
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,10 +20,10 @@
   }
   
   .profile-container img {
-    width: 100px; /* O el tamaño que tenga la imagen */
+    width: 100px; 
     height: 100px;
     border-radius: 50%;
-    border: 3px solid white; /* O el color que mejor se ajuste */
+    border: 3px solid white; 
   }
   
   .profile-container p {
@@ -40,7 +38,7 @@
   .content button {
     padding: 10px 20px;
     font-size: 1.5em;
-    background-color: #4CAF50; /* Cambia a tu color deseado */
+    background-color: #4CAF50; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -54,16 +52,15 @@
   
   .footer {
     width: 100%;
-    position: absolute; /* Si necesitas que el pie de página esté al fondo */
+    position: absolute; 
     bottom: 0;
   }
   
   .footer progress {
     width: 100%;
-    height: 20px; /* Ajusta la altura como desees */
+    height: 20px; 
   }
-  
-  /* Clases adicionales para el botón de LinkedIn, si decides usarlo */
+
   .linkedin-button {
     display: flex;
     justify-content: center;
@@ -79,11 +76,11 @@
   }
   
   .linkedin-button:hover {
-    background-color: #005fa2; /* Un tono más oscuro de LinkedIn blue */
+    background-color: #005fa2; 
   }
   
   .linkedin-button svg {
-    margin-right: 8px; /* Espacio entre el ícono y el texto */
+    margin-right: 8px; 
   }
   
   /* Media queries para ajustar el diseño a diferentes tamaños de pantalla */
@@ -94,7 +91,7 @@
     }
   
     .content button {
-      font-size: 1.2em; /* Tamaño más pequeño para dispositivos móviles */
+      font-size: 1.2em; 
     }
   }
   

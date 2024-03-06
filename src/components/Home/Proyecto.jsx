@@ -11,12 +11,12 @@ function Proyecto() {
             <div className="d-flex flex-grow-1 justify-content-center align-items-center">
               <p className="mb-0 text-center text-white"></p>
               <div className="social-icons">
-                <a href="https://www.linkedin.com/in/jaravenae/" className="btn btn-dark">
-                  <i className="fab fa-linkedin"></i>
-                </a>
+              <a href="https://www.linkedin.com/in/jaravenae/" class="btn btn-dark" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
               </div>
-            </div>
-            <div className="d-flex justify-content-end align-items-center">
+              </div>
+              <div className="d-flex justify-content-end align-items-center">
               <p id="minombre" className="mb-0 me-2 text-white p-2">Janis</p>
               <img src="./img/yo.jpeg" alt="Tu imagen de perfil" className="perfil-img" />
             </div>

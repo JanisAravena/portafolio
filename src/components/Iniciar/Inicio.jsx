@@ -5,9 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function Inicio() {
-  const incrementarContador = () => {
-    // Implementa la lógica para incrementar el contador
-  };
 
   const iniciarProgreso = (event) => {
     event.preventDefault();
@@ -40,9 +37,10 @@ function Inicio() {
             <div className="d-flex flex-grow-1 justify-content-center align-items-center">
               <p className="mb-0 text-center text-white"></p>
               <div className="social-icons">
-                <a href="https://www.linkedin.com/in/jaravenae/" className="btn btn-dark" onClick={incrementarContador}>
-                  <i className="fab fa-linkedin"></i>
-                </a>
+              <a href="https://www.linkedin.com/in/jaravenae/" class="btn btn-dark" target="_blank">
+  <i class="fab fa-linkedin"></i>
+</a>
+
               </div>
             </div>
             <div className="d-flex justify-content-end align-items-center">

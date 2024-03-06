@@ -1,14 +1,14 @@
 #body-bienvenida, .container-bienvenida{
-    background-color: #000000; /* Fondo oscuro */
+    background-color: #000000;
     color: white;
-    cursor: not-allowed; /* Cambia el cursor al pasar sobre la imagen */
+    cursor: not-allowed; 
     
 }
 
 .container-bienvenida{
-    background-color: #000000; /* Fondo oscuro */
+    background-color: #000000;
     color: white;
-    cursor: not-allowed; /* Cambia el cursor al pasar sobre la imagen */
+    cursor: not-allowed; 
 }
   
   .alert-container {
@@ -20,7 +20,7 @@
   
   .alert-heading {
       font-family: fantasy;
-      font-weight: 900; /* Valor máximo para font-weight */
+      font-weight: 900; 
       color: #f0c84f; 
       text-shadow: 2px 2px 4px rgba(2,2,2,2.1000);
   }
@@ -31,7 +31,7 @@
   }
   
   .white-line {
-    border-top: 2px solid white; /* Línea blanca */
+    border-top: 2px solid white; 
     margin-top: 10px;
   }
   
