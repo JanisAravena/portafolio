@@ -1,0 +1,220 @@
+body {
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/806/329/desktop-wallpaper-buy-grand-theft-auto-v-gta-rp.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  #navbar-principal {
+    height: 120vh; /* Ajusta este valor según sea necesario */
+}
+
+  
+  .contenedor-imagen {
+    /* Cambia "black" al color que desees */
+    border-radius: 10px; /* Cambia el radio de borde según prefieras */
+    padding: 5px; /* Espacio entre el borde y la imagen */
+    display: inline-block; /* Para que el contenedor se ajuste al tamaño de la imagen */
+  }
+  
+  .perfil-img {
+    width: 100px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    border: solid black;
+  }
+
+  #minombre
+  {
+    font-size: 20px; /* Tamaño de fuente */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+      /* background-color: #290b25; */
+  
+  
+      .custom-container {
+        background-color: rgba(0, 0, 0, 0.5); /* Cambia el último valor (0.5) para ajustar la opacidad */
+        padding: 20px;
+        border-radius: 5px;
+        text-align: left;
+        color: #e1dee3;
+    }
+    
+  
+  /* .profile-container {
+    display: flex;
+    align-items: center;
+  } */
+  
+  /* .perfil-img {
+    max-width: 200px;
+  }
+   */
+  /* .profile-infos {
+    margin-left: 20px;
+  } */
+  
+ .navbar {
+            background-color: transparent !important; /* Hace el fondo transparente */
+        }
+  .nav-link, p {
+    color: #e1dee3;
+    font: bold 90% monospace;
+  }
+  
+  h1{
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+  }
+
+  .navbar-brand {
+    font-family: Impact, fantasy;
+    font-size: 40px; /* Tamaño de fuente */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Desplazamiento X, Desplazamiento Y, Desenfoque, Color */
+}
+
+
+  
+  .custom-container .navbar-nav .nav-link {
+    background-color: transparent;
+    border: none;
+    padding: 0.5rem 1rem;
+    
+    color: rgba(255, 255, 255, 0.7) !important; /* Cambia el color del texto al pasar el mouse */
+  }
+  
+  .custom-container .navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+  }
+  
+  #letras {
+
+  color: black;
+  }
+
+  th, td {color:#e1dee3;}
+  footer {
+    text-align: center;
+}
+.carousel-item img {
+  height: 300px;
+  object-fit: cover;}
+
+  .list-group {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .list-item i {
+    margin-right: 10px;
+  }
+  
+  .list-group {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .list-item {
+    margin-right: 10px; /* Espacio entre elementos */
+  }
+  
+  .fab {
+    color: inherit;
+  }
+  
+  .fa-lg {
+    font-size: 100px; /* Tamaño del ícono */
+  }
+
+  .fab {
+    /* Agregar sombra a todos los iconos */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .fab.fa-react {
+    color: #61dafb; /* Color azul de React */
+  }
+  
+
+  
+  .fab.fa-node {
+    color: #68a063; /* Color verde de Node.js */
+  }
+  
+  .fab.fa-envira {
+    color: #4db33d; /* Color verde de MongoDB */
+  }
+  
+  .fab.fa-git {
+    color: #f34f29; /* Color naranja de Git */
+  }
+  
+  .fab.fa-github {
+    color: #4078c0; /* Color azul de GitHub */
+  }
+  
+  /* LOGO GTA V */
+  #corazon-icon {
+    max-width: 15%;
+    max-height: 15%;
+  }
+  .heart {
+    background-image: url('carro-deportivo.png'); /* Ruta de tu imagen PNG */
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    animation: heart-float 1.5s ease-out;
+    /* pointer-events: none; */
+  }
+  @keyframes heart-float {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-30px) rotate(20deg);
+    }
+    100% {
+      transform: translateY(-60px) rotate(0deg);
+      opacity: 0;
+    }
+  }
+
+  .fixed-button {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    right: 20px; /* Ajusta la distancia desde la derecha */
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
+    cursor: help; /* Cambia el cursor al pasar sobre la imagen */
+  }
+
+  .github-btn {
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    text-decoration: none; /* Sin subrayado en el texto */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+  }
+  
+  .github-btn:hover {
+    background-color: #444; /* Color de fondo al pasar el ratón */
+  }
+  
+  .github-btn i {
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+  }
+  

@@ -1,0 +1,51 @@
+#body-bienvenida, .container-bienvenida{
+    background-color: #000000; /* Fondo oscuro */
+    color: white;
+    cursor: not-allowed; /* Cambia el cursor al pasar sobre la imagen */
+    
+}
+
+.container-bienvenida{
+    background-color: #000000; /* Fondo oscuro */
+    color: white;
+    cursor: not-allowed; /* Cambia el cursor al pasar sobre la imagen */
+}
+  
+  .alert-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .alert-heading {
+      font-family: fantasy;
+      font-weight: 900; /* Valor máximo para font-weight */
+      color: #f0c84f; 
+      text-shadow: 2px 2px 4px rgba(2,2,2,2.1000);
+  }
+  
+  .alert-description {
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .white-line {
+    border-top: 2px solid white; /* Línea blanca */
+    margin-top: 10px;
+  }
+  
+  .paragraph-container {
+    margin-top: 20px;
+  }
+  
+  #bienvenida-p {
+    font-family: "Segoe IU", sans-serif;
+  
+  }
+  
+  .link-acceso{
+      font-family: "Segoe IU", sans-serif;
+      color: #A2825C;
+  }
+  

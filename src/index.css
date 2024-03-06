@@ -1,0 +1,45 @@
+/* Estilos para el componente Bienvenida */
+
+#fondo-bienvenida {
+    background-color: rgb(20, 20, 19); /* Fondo oscuro */
+    color: white;
+    cursor: not-allowed; /* Cambia el cursor al pasar sobre el fondo */
+  }
+  
+  .alert-container-bienvenida {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .alert-heading-bienvenida {
+    font-family: fantasy;
+    font-weight: 900; /* Valor máximo para font-weight */
+    color: #f0c84f; 
+    text-shadow: 2px 2px 4px rgba(2,2,2,2.1000);
+  }
+  
+  .alert-description-bienvenida {
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .white-line-bienvenida {
+    border-top: 2px solid white; /* Línea blanca */
+    margin-top: 10px;
+  }
+  
+  .paragraph-container-bienvenida {
+    margin-top: 20px;
+  }
+  
+  #bienvenida-p-bienvenida {
+    font-family: "Segoe IU", sans-serif;
+  }
+  
+  .link-acceso-bienvenida {
+    font-family: "Segoe IU", sans-serif;
+    color: #A2825C;
+  }
+  
