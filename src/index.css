@@ -1,45 +1,55 @@
-/* Estilos para el componente Bienvenida */
+@media screen and (max-width: 1700px){
 
-#fondo-bienvenida {
-    background-color: rgb(20, 20, 19); /* Fondo oscuro */
-    color: white;
-    cursor: not-allowed; /* Cambia el cursor al pasar sobre el fondo */
-  }
-  
-  .alert-container-bienvenida {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .alert-heading-bienvenida {
-    font-family: fantasy;
-    font-weight: 900; /* Valor máximo para font-weight */
-    color: #f0c84f; 
-    text-shadow: 2px 2px 4px rgba(2,2,2,2.1000);
-  }
-  
-  .alert-description-bienvenida {
-    margin-top: 10px;
-    color: white;
-  }
-  
-  .white-line-bienvenida {
-    border-top: 2px solid white; /* Línea blanca */
-    margin-top: 10px;
-  }
-  
-  .paragraph-container-bienvenida {
-    margin-top: 20px;
-  }
-  
-  #bienvenida-p-bienvenida {
-    font-family: "Segoe IU", sans-serif;
-  }
-  
-  .link-acceso-bienvenida {
-    font-family: "Segoe IU", sans-serif;
-    color: #A2825C;
-  }
-  
+    .containercover{
+        background-position: 50%;
+    }
+
+}
+
+@media screen and (max-width:1200px){
+
+    header{
+        padding: 40px;
+    }
+
+    .containercover{
+        background-position: -100px;
+    }
+
+    .containercover .svg img{
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 1020px){
+
+    .containercover{
+        background-image: url("");
+        background-color: #FD8986;
+    }
+
+    .containercover .svg img{
+        display: none;
+    }
+
+    .containercover .text{
+        max-width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+
+    .menu nav{
+        position: fixed;
+        top: 0;
+        right: -250px;
+        background: white;
+        width: 250px;
+        height: 100vh;
+        padding: 40px;
+        z-index: 1;
+        transition: all 300ms;
+    }
+}

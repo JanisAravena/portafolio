@@ -59,7 +59,7 @@ function Inicio() {
                 <div className="collapse navbar-collapse justify-content-around" id="navbarNav">
                   <ul className="navbar-nav flex-grow-1 d-flex justify-content-center align-items-center">
                     <li className="nav-item">
-                      <a id="link" className="nav-link" href="#" onClick={iniciarProgreso}>PULSE AQUÍ PARA CONTINUAR</a>
+                      <a id="link" className="nav-link" href="./Bienvenida" onClick={iniciarProgreso}>PULSE AQUÍ PARA CONTINUAR</a>
                     </li>
                   </ul>
                 </div>
