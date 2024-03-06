@@ -19,12 +19,11 @@ function Inicio() {
       progressText.textContent = `${progressCounter}%`;
   
       if (progressCounter >= 100) {
+        progressBar.style.width = '100%';
         clearInterval(interval);
-        setTimeout(() => {
-          window.location.href = './Bienvenida';
-        }, 1000);
+        window.location.href = './Bienvenida';
       }
-    }, 50);
+    }, 30);
   };
   
 
