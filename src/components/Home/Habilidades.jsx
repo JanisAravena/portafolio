@@ -1,6 +1,17 @@
 import React from 'react';
 
 const Habilidades = () => {
+  const styles = {
+    tableTransparent: {
+      backgroundColor: 'transparent',
+    },
+    progress: {
+      backgroundColor: 'rgba(255, 255, 255, 0.3)', // Puedes cambiar la opacidad aquí
+    },
+    progressBar: {
+      backgroundColor: '#28a745', // O cualquier otro color que desees para la barra
+    },
+  };
   return (
     <>
       <div id="navbar-principal" className="container-fluid d-flex align-items-center justify-content-center vh-100">
@@ -9,13 +20,12 @@ const Habilidades = () => {
           {/* Sección de navegación */}
           <nav id="navbar-segundario" className="navbar navbar-expand-lg ">
             <div className="container-fluid d-flex align-items-center justify-content-center ">
-              <div className="navbar-brand text-white">Full Stack JavaScript</div>
+            <div className="navbar-brand text-white" style={{ fontSize: '28px' }}>Full Stack JavaScript</div>
               <div className="d-flex flex-grow-1 justify-content-center align-items-center">
                 <p className="mb-0 text-center text-white"></p>
-                <a href="https://www.linkedin.com/in/jaravenae/" class="btn btn-dark" target="_blank">
-  <i class="fab fa-linkedin"></i>
-</a>
-
+                <a href="https://www.linkedin.com/in/jaravenae/" className="btn btn-dark" target="_blank" title="Ir a Linkedin">
+                 <i className="fab fa-linkedin"></i>
+                  </a>
               </div>
               <div className="d-flex justify-content-end align-items-center">
                 <p id="minombre" className="mb-0 me-2 text-white p-2">Janis</p>
@@ -54,7 +64,7 @@ const Habilidades = () => {
             <div className="container-fluid">
               <div className="row">
                 <div className="col-lg-6">
-                  <table className="table">
+                  <table className="table" style={{backgroundColor: 'transparent'}}>
                     <thead>
                       <tr>
                         <th>Tecnología</th>
@@ -125,15 +135,9 @@ const Habilidades = () => {
               </div>
             </div>
           </div>
+          <p>Nota: "Espero que encuentres inspiración en mi proyecto de portafolio y estoy ansiosa de explorar como podemos crear juntos soluciones digitales impactantes."</p>
         </div>
       </div>
-      {/* Incluir Bootstrap JS (opcional, solo si necesitas funcionalidades JS de Bootstrap) */}
-      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-      {/* Incluir Font Awesome para los iconos */}
-      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-      <script src="script.js"></script>
     </>
   );
 }

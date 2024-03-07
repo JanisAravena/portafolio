@@ -17,7 +17,7 @@ function Informacion() {
             <div>
                 <nav id="navbar-segundario" className="navbar navbar">
                     <div className="container-fluid d-flex align-items-center justify-content-center">
-                        <div className="navbar-brand text-white">Full Stack JavaScript</div>
+                    <div className="navbar-brand text-white" style={{ fontSize: '28px' }}>Full Stack JavaScript</div>
                         <div className="d-flex flex-grow-1 justify-content-center align-items-center">
                             <p className="mb-0 text-center text-white"></p>
                             <a href="https://www.linkedin.com/in/jaravenae/" className="btn btn-dark" target="_blank" title="Ir a Linkedin">
@@ -58,10 +58,10 @@ function Informacion() {
                         <div style={{ width: 'auto' }}>
                             <img src="https://media.licdn.com/dms/image/D5603AQGIS8_oH390Wg/profile-displayphoto-shrink_400_400/0/1705586748936?e=1714608000&v=beta&t=9Bzbbie9hT6AXTYgIzR6H9dLmUVGdLlp9sRrtA0MHp8" alt="Tu imagen de perfil" className="perfil-img" style={{ width: '45%' }} />
                             <h1>Janis Aravena</h1>
-                            <p>Full Stack JavaScript</p>
-                            <a href="/JANISARAVENA-CV.pdf" download="CV_Janis_Aravena.pdf" className="btn btn-dark mt-4">
-        Descargar CV <i className="fas fa-arrow-down"></i>
-      </a>
+                            <p>Full Stack Developer</p>
+                            <a href="./CVDownloader/JANISARAVENA-CV.pdf" download="CV_Janis_Aravena.pdf" className="btn btn-dark mt-4">
+                                 Descargar CV <i className="fas fa-arrow-down"></i>
+                                 </a>
                         </div>
                         <div className="profile-infos" style={{ width: '60%' }}>
                             <h1>Sobre mí</h1>

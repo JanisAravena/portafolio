@@ -9,6 +9,7 @@ import MisCursos from '../Views/MisCursos';
 import MisProyecto from '../Views/MisProyectos';
 
 
+
 const router = createBrowserRouter([
   { path: "/", element: <ElInicio /> },
   { path: "/Bienvenida", element: <LaBienvenida /> },
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
   { path: "/Habilidades", element: <MisHabilidades /> },
   { path: "/Cursos", element: <MisCursos /> },
   { path: "/Proyecto", element: <MisProyecto /> },
+
 
 
  

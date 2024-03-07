@@ -7,11 +7,11 @@ function Proyecto() {
       <div>
         <nav id="navbar-segundario" className="navbar navbar">
           <div className="container-fluid d-flex align-items-center justify-content-center">
-            <div className="navbar-brand text-white">Full Stack JavaScript</div>
+          <div className="navbar-brand text-white" style={{ fontSize: '28px' }}>Full Stack JavaScript</div>
             <div className="d-flex flex-grow-1 justify-content-center align-items-center">
               <p className="mb-0 text-center text-white"></p>
               <div className="social-icons">
-              <a href="https://www.linkedin.com/in/jaravenae/" class="btn btn-dark" target="_blank">
+              <a href="https://www.linkedin.com/in/jaravenae/" className="btn btn-dark" target="_blank" title="Ir a Linkedin">
                 <i class="fab fa-linkedin"></i>
               </a>
               </div>
@@ -51,16 +51,13 @@ function Proyecto() {
               <img src="./img/1.jpeg" alt="Proyecto" className="perfil-img" style={{ width: '90%' }} />
             </div>
             <div className="text-container p-3">
-              <h1>Full-stack Developer</h1>
-              <p>Municipalidad de Renca · Proyecto integrador</p>
-              <p>Desarrollo de Web App de Gestión de Rutas de Aprendizaje: “Currículum Renca”
-                Basada en una arquitectura web moderna MERN utilizando JavaScript en todos los
-                niveles: desde el frontend hasta el backend y la base de datos. Con el objetivo de crear un sistema de
-                gestión y seguimiento.</p>
+              <h1>Currículum Renca</h1>
+              <p>Proyecto integrador</p>
+              <p>Líder en el desarrollo de la Web App "Currículum Renca" para la Municipalidad de Renca, utilizando la arquitectura MERN y JavaScript en todos los niveles. Esta aplicación innovadora ofrece gestión y seguimiento eficientes de rutas de aprendizaje, destacándose por su enfoque moderno y alto rendimiento. Mi liderazgo garantizó el éxito del proyecto, entregando una solución tecnológica avanzada que mejora significativamente el panorama educativo.</p>
             </div>
           </div>
           <a href="https://github.com/arthemia4/Proyecto-CurriculumRenca-G3" class="btn btn-dark mt-4 github-btn" target="_blank" rel="noopener noreferrer">
-  <i class="fab fa-github"></i> Ver Proyecto en GitHub
+  <i class="fas fa-arrow-down"></i> Ver Proyecto en GitHub
 </a>
         </div>
         
