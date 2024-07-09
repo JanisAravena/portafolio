@@ -56,7 +56,7 @@ function Informacion() {
                     </nav>        
                     <div className="profile-container" style={{ display: 'flex', width: '100%', alignItems: 'center' }}>
                         <div style={{ width: 'auto' }}>
-                            <img src="https://media.licdn.com/dms/image/D5603AQGIS8_oH390Wg/profile-displayphoto-shrink_400_400/0/1705586748936?e=1714608000&v=beta&t=9Bzbbie9hT6AXTYgIzR6H9dLmUVGdLlp9sRrtA0MHp8" alt="Tu imagen de perfil" className="perfil-img" style={{ width: '45%' }} />
+                            <img src="https://media.licdn.com/dms/image/D5603AQGIS8_oH390Wg/profile-displayphoto-shrink_400_400/0/1705586748936?e=1714608000&v=beta&t=9Bzbbie9hT6AXTYgIzR6H9dLmUVGdLlp9sRrtA0MHp8" alt="Mi imagen" className="perfil-img" style={{ width: '45%' }} />
                             <h1>Janis Aravena</h1>
                             <p>Full Stack Developer</p>
                             <a href="./CVDownloader/JANISARAVENA-CV.pdf" download="CV_Janis_Aravena.pdf" className="btn btn-dark mt-4">
