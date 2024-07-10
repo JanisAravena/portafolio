@@ -22,7 +22,7 @@ function Inicio() {
       <div>
         <nav id="navbar-segundario" className="navbar navbar">
           <div className="container-fluid d-flex align-items-center justify-content-center">
-            <div className="navbar-brand text-white" style={{ fontSize: '28px' }}>Full Stack JavaScript</div>
+            <div className="navbar-brand text-white" style={{ fontSize: '28px' }}>Full Stack Developer</div>
             <div className="d-flex flex-grow-1 justify-content-center align-items-center">
               <p className="mb-0 text-center text-white"></p>
               <div className="social-icons">
