@@ -1,12 +1,15 @@
 import React from 'react';
+import '@fontsource/anton-sc';
+
 
 function Bienvenida() {
   const textStyle = {
     color: '#f0c84f', 
     textShadow: '2px 2px 4px rgba(2, 2, 2, 1)',
-    fontFamily: 'fantasy',
+    fontFamily: "'Anton SC', sans-serif", // Correcta definición de fontFamily
     fontWeight: '900'
   };
+
 
   const paragraphStyle = {
     color: 'white',
@@ -22,11 +25,10 @@ function Bienvenida() {
     borderTop: '2px solid white',
     margin: '10px 0'
   };
-
   return (
     <div className="container" style={{ backgroundColor: '#000000', minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div className="alert-container text-center">
-        <h1 style={textStyle}>¡Hola, Bienvenido(a)!</h1>
+        <h1 style={textStyle}>¡Bienvenido!</h1>
         <div style={lineStyle}></div>
         <div>
           <p style={paragraphStyle}>
