@@ -22,7 +22,7 @@ body {
   .perfil-img {
     width: 100px; /* Ancho de la imagen */
     height: auto; /* Altura automática para mantener la proporción */
-    border: solid black;
+    /* border: solid black; */
   }
 
   #minombre

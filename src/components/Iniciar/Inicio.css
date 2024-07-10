@@ -1,104 +1,101 @@
 .inicio-container {
-    background-image: url('/ruta/a/la/imagen/de/fondo.jpg'); 
-    background-size: cover;
-    background-position: center;
-    color: white; 
-    height: 100vh; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .header {
-    text-align: center;
-    padding-top: 20px;
-  }
-  
-  .profile-container {
-    display: inline-block;
-    margin-top: 20px;
-  }
-  
+  background-image: url('/ruta/a/la/imagen/de/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Mantener la imagen fija */
+  color: white;
+  height: auto; /* Ajustar automáticamente al contenido */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px; /* Agregar espacio de relleno para separar del borde */
+  box-sizing: border-box; /* Incluir padding en el tamaño total */
+}
+
+.header {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.profile-container p {
+  color: white;
+}
+
+.content {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content button {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+  background-color: #45a049;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer progress {
+  width: 100%;
+  height: 20px;
+}
+
+.linkedin-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px; /* Ajustar padding para móviles */
+  border-radius: 4px;
+  background-color: #0077b5;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.linkedin-button:hover {
+  background-color: #005fa2;
+}
+
+.linkedin-button svg {
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
   .profile-container img {
-    width: 100px; 
-    height: 100px;
-    border-radius: 50%;
-    border: 3px solid white; 
-  }
-  
-  .profile-container p {
-    color: white;
-  }
-  
-  .content {
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  .content button {
-    padding: 10px 20px;
-    font-size: 1.5em;
-    background-color: #4CAF50; 
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .content button:hover {
-    background-color: #45a049;
-  }
-  
-  .footer {
-    width: 100%;
-    position: absolute; 
-    bottom: 0;
-  }
-  
-  .footer progress {
-    width: 100%;
-    height: 20px; 
+    width: 80px;
+    height: 80px;
   }
 
-  .linkedin-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2px;
-    border-radius: 4px;
-    background-color: #0077b5;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.15);
-    transition: all 0.3s ease;
+  .content button {
+    font-size: 1.2em;
+    padding: 8px 16px; /* Ajustar padding para móviles */
   }
-  
-  .linkedin-button:hover {
-    background-color: #005fa2; 
-  }
-  
-  .linkedin-button svg {
-    margin-right: 8px; 
-  }
-  
-  /* Media queries para ajustar el diseño a diferentes tamaños de pantalla */
-  @media (max-width: 768px) {
-    .profile-container img {
-      width: 80px;
-      height: 80px;
-    }
-  
-    .content button {
-      font-size: 1.2em; 
-    }
-  }
-  
-  .galeria-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    margin-top: 20px;
-  }
+}
